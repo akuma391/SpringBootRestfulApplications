@@ -5,18 +5,21 @@
  Simple RESTful  API using @DynamicUpdate to update on column. It is generaly not preferred for large appilications.
 
 4. PeopleDataManagementAppl  
- imple RESTful API Using @DynamicUpdate get details of a person using soneparticular properties.
+ RESTful API Using @DynamicUpdate get details of a person using soneparticular properties.
 
- 5.PeopleDataManagementApplJPANamedQry :-
+ 5.PeopleDataManagementApplJPANamedQry
+ 
   RESTful API Using @DynamicUpdate. Used 2 proceess to find details 
    a. Named Queries using Entity name and Attribute name using JPQL
    b. NamedNativeQueries using Table name and column name using sql query
 
 6. PeopleDataManagementAsync
+
  Using  @Async annotation. Spring will execute it in a separate thread and the caller of the method will not wait till the method is 
 completed execution.
 
 7. PeopleDataManagementPagination
+
 Example of Pagination and Sorting. This is helpful when we have a large dataset and we want to present it to the user in smaller chunks.
 
 8. PeopleDataManagementQueryAnnotation_1
